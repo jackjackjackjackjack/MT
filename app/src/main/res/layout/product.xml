@@ -1,0 +1,192 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:weightSum="10"
+android:id="@+id/linearLayout"
+android:background="@color/background">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#ffd5001d">
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/Edit_tvProductName"
+            android:layout_weight="2"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="20sp"
+            android:background="#FFF"
+            android:text="asdfkaj sd;fja ;sdfjka; sdkjfa; sdkjfa;sdjkf; asjkdf; aksjdfa; ksdfj asdfasdfaksdjf;a jsdf;k jas;dkfja; ksdjfkl;a sjdf;lka sjdf;ajk sd;lfja skl;dfja;skdjf"
+            android:textStyle="bold"
+            android:textColor="#000" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/Edit_imageView"
+            android:layout_weight="0.7"
+            android:contentDescription="@string/Product_Image"
+            android:background="#FFFFFF" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView3"
+        android:layout_weight="5"
+        android:layout_marginTop="5dp">
+
+        <TableLayout
+        android:id="@+id/Edit_TableStores"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:stretchColumns="*"
+            android:weightSum="10">
+
+    </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|right"
+        android:layout_weight="1"
+        android:baselineAligned="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/Caption_TotalQtyBuy"
+            android:id="@+id/textView9"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/forecolor_caption"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Edit_tvTotalQty"
+            android:textColor="@color/forecolor_values"
+            android:textSize="18sp"
+            android:background="@color/background_fields"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Caption_TotalSum"
+            android:id="@+id/textView11"
+            android:padding="5dp"
+            android:textSize="12sp"
+            android:textColor="@color/forecolor_caption" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/Edit_tvTotal"
+            android:textSize="18sp"
+            android:textColorHighlight="#ff4adbff"
+            android:textColor="@color/forecolor_values"
+            android:background="@color/background_fields"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:text="+"
+        android:id="@+id/Edit_btnPlus"
+        android:onClick="btnPlusСlick"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/captions_font_size"
+        android:background="@color/buttons_background"
+        android:textColor="@color/buttons_front"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:shadowColor="@color/buttons_shadow" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:id="@+id/Edit_edtQty"
+        android:text="0.0"
+        android:layout_weight="2"
+        android:autoText="false"
+        android:enabled="true"
+        android:inputType="numberDecimal"
+        android:gravity="center_vertical|center_horizontal"
+        android:editable="true"
+        android:textSize="@dimen/edit_fontSize"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColor="@color/forecolor_values"
+        android:background="@drawable/edit_fields"
+        android:textCursorDrawable="@drawable/color_cursor"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:text="-"
+        android:id="@+id/Edit_btnMinus"
+        android:onClick="btnMinusClick"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/captions_font_size"
+        android:background="@color/buttons_background"
+        android:textColor="@color/buttons_front"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:shadowColor="@color/buttons_shadow" />
+
+    </LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:weightSum="1"
+    android:layout_weight="1"
+    android:gravity="bottom|end"
+    android:layout_marginTop="20dp">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:text="@string/caption_OK"
+        android:id="@+id/Edit_btnOK"
+        android:textStyle="bold"
+        android:onClick="btnOkClick"
+        android:layout_weight="1"
+        android:textSize="@dimen/captions_font_size"
+        android:background="@color/buttons_background"
+        android:textColor="@color/buttons_front"
+        android:shadowColor="@color/buttons_shadow" />
+
+</LinearLayout>
+
+</LinearLayout>
+

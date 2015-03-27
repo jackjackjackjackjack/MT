@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#ffffffff</color>
+    <color name="forecolor_caption">#ff000000</color>
+    <color name="forecolor_values">#c9000000</color>
+    <color name="active_row_font_color">#ffffffff</color>
+    <color name="background_fields">#ffffffff</color>
+    <color name="buttons_background">#d5001d</color>
+    <color name="buttons_front">#fff</color>
+    <color name="buttons_shadow">#400000</color>
+</resources>

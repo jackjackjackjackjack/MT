@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Центральная Стройбаза клиент</string>
+    <string name="action_settings">Настройки</string>
+    <string name="StoreCaption">Склад</string>
+    <string name="StockQtyCaption">Остаток</string>
+    <string name="QtyToBuyCaption">Купить</string>
+    <string name="title_activity_edit_product">Ввод количества товара</string>
+    <string name="ProductText">Номенклатура</string>
+    <string name="ErrorActivityCaption">Сообщение об ошибке</string>
+    <string name="CharacteristicCaption">Характ-ка</string>
+    <string name="PriceCaption">Цена</string>
+    <string name="Caption_Summa">Итого: </string>
+    <string name="Hint_ScanOrInputManually">Введите или сканируйте штрихкод</string>
+    <string name="Caption_DocNumber">Номер</string>
+    <string name="Caption_TotalQtyBuy">Итого </string>
+    <string name="Caption_TotalSum">на сумму</string>
+    <string name="Product_Image">productImage</string>
+    <string name="Hint_DocNumber">Номер док.:</string>
+    <string name="Caption_stockandprice">Остатки и цены</string>
+    <string name="Caption_delete">Удал.</string>
+    <string name="Caption_SAVE1C">Сохранить</string>
+    <string name="caption_OK">ОК</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="total_weight">3</integer>
+    <integer name="store_weight">2</integer>
+    <integer name="charact_weight">3</integer>
+    <integer name="price_weight">2</integer>
+    <integer name="qty_weight">2</integer>
+    <integer name="qtybuy_weight">1</integer>
+    <integer name="product_weight">5</integer>
+
+</resources>
