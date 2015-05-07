@@ -1,14 +1,9 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".MainScreen">
+    tools:context="sk42.ru.mt.CollectActivity">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:showAsAction="never"
         android:title="@string/action_settings" />
-    <item
-        android:id="@+id/action_collect"
-        android:orderInCategory="100"
-        android:showAsAction="never"
-        android:title="@string/Caption_CollectBarcodes" />
 </menu>

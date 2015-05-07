@@ -22,5 +22,11 @@
     <string name="Caption_delete">Удал.</string>
     <string name="Caption_SAVE1C">Сохранить</string>
     <string name="caption_OK">ОК</string>
+    <string name="title_activity_collect">CollectActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="Hint_InputSKU">Введите часть артикула</string>
+    <string name="caption_SaveBarcode">Сохранить штрихкод</string>
+    <string name="Caption_CollectBarcodes">Ввод штрихкодов</string>
 
 </resources>

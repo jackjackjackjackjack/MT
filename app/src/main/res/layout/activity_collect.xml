@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CollectActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="20"
+    tools:context="sk42.ru.mt.CollectActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Артикул"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/Collect_EditSKU"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="8"
+            android:background="#fff"
+            android:editable="true"
+            android:enabled="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:hint="@string/Hint_InputSKU"
+            android:shadowColor="#ffffa0ac"
+            android:textColor="@color/forecolor_values"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/captions_font_size" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:background="@color/buttons_background"
+            android:text="Ввод" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="208dp"
+        android:layout_weight="9"
+        android:background="#ffd5001d"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/Collect_tvName"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#FFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Collect_ImageView"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/Product_Image" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Collect_EditBarcode"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="#fff"
+        android:editable="true"
+        android:enabled="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/Hint_ScanOrInputManually"
+        android:shadowColor="#ffffa0ac"
+        android:textColor="@color/forecolor_values"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/captions_font_size" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="15dp"
+        android:layout_weight="3"
+        android:background="@color/buttons_background"
+        android:onClick="btnOkClick"
+        android:shadowColor="@color/buttons_shadow"
+        android:text="@string/caption_SaveBarcode"
+        android:textColor="@color/buttons_front"
+        android:textSize="@dimen/captions_font_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

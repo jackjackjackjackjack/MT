@@ -8,4 +8,5 @@
     <color name="buttons_background">#d5001d</color>
     <color name="buttons_front">#fff</color>
     <color name="buttons_shadow">#400000</color>
+    <color name="last_order_background">#ff81d2d5</color>
 </resources>
